@@ -1,5 +1,5 @@
 variable "bucket_name" {
-  description = "description"
+  description = "Name of raw data bucket"
 }
 variable "encrypt" {
   type        = string
@@ -9,17 +9,17 @@ variable "encrypt" {
 variable "named_folder"{
   type        = string
   default     = "raw_statistics_reference_data"
-  description = "description"
+  description = "Name of json folder"
 }
 variable "base_folder"{
   type        = string
   default     = "youtube"
-  description = "description"
+  description = "Base folder of data project"
 }
 variable "data_path" {
   type        = string
   default     = "/home/atilla/data"
-  description = "Path of the data"
+  description = "Path of the data on my PC"
 }
 
 variable "regions" {
